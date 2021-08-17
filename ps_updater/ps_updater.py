@@ -69,6 +69,7 @@ def show_error_msg(err):
     print("```")
     print("Please copy and paste this full message (from 'PanoptoSync was coded by Microeinstein' to the next line) and report it here: https://github.com/mario33881/panoptosync_updater/issues")
     print("> After signing up/logging in follow this tutorial: https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository")
+    print("\nNOTE: This error was thrown by the Update tool. PanoptoSync should still work!")
 
 
 def seconds_between(first_time, later_time):
@@ -310,3 +311,6 @@ if __name__ == "__main__":
     except Exception as e:
         # show the error and invite the user to report it
         show_error_msg(e)
+    
+    print("=" * 30)
+    print("")
