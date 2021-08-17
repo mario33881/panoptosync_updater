@@ -1,0 +1,16 @@
+name: Unit Tests
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.4
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2.2.1
+      with:
+        python-version: 3.9
+    - name: Test with unittest
+      run: |
+        python tests/unit_tests.py
