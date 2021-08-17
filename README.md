@@ -1,5 +1,7 @@
 # PANOPTOSYNC_UPDATER
 
+[![Unit Tests](https://github.com/mario33881/panoptosync_updater/actions/workflows/unittest.yml/badge.svg)](https://github.com/mario33881/panoptosync_updater/actions/workflows/unittest.yml)
+
 This is a simple script that keeps up to date [PanoptoSync](https://gitlab.com/Microeinstein/panopto-sync).
 > The tool that downloads UniVR lessons
 
